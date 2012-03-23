@@ -1,0 +1,33 @@
+<div class="modal" id="badge_modal">
+  <form class='form-horizontal'>
+  <div class="modal-header">
+    <a class="close" data-dismiss="modal">×</a>
+    <h3>Add Badge</h3>
+  </div>
+  <div class="modal-body">
+    <div class="control-group">
+      <label class="control-label" for="badge_color">Color:</label>
+      <div class="controls">
+        <select id='badge_color' name='color'>
+          <option value=''>Default</option>
+          <option value=' badge-info'>Info</option>
+          <option value=' badge-success'>Success</option>
+          <option value=' badge-warning'>Warning</option>
+          <option value=' badge-danger'>Danger</option>
+          <option value=' badge-inverse'>Inverse</option>
+        </select>
+      </div>
+    </div>
+    <div class="control-group">
+      <label class="control-label" for="badge_text">Text:</label>
+      <div class="controls">
+        <input type='text' id='badge_text' name='text'/>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn" data-dismiss="modal">Cancel</a>
+    <button type='submit' class="btn btn-primary">Add to Page</button>
+  </div>
+  </form>
+</div>
